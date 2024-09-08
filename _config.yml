@@ -12,7 +12,7 @@ title                    : "Fernando Hidalgo Pineda"
 title_separator          : "-"
 name                     : &name "Fernando Hidalgo Pineda"
 description              : &description "Doctoral student at the Max Planck Insitute for Astrophysics"
-url                      : https://fernandohidalgopineda.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://fermentando.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "fermentando/Personal_webpage.github.io"
 
