@@ -21,19 +21,19 @@ repository               : "fermentando/Personal_webpage.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Fernando Hidalgo Pineda"
-  pronouns         : "he/him" # example: "she/her"  
-  bio              : "Doctoral student at the Max Planck Insitute for Astrophysics"
-  location         : "Munich, Germany, Earth, Milky Way, Laniakea"
-  employer         : "IMPRS programme, MPA"
+  avatar           : "profile.jpeg"
+  name             : "Fernando \n Hidalgo \n Pineda"
+  pronouns         : "(He/him)" # example: "she/her"  
+  bio              : "Doctoral student in Computational Astrophysics"
+  location         : "Munich, Germany"
+  employer         : "MPA"
   uri              : # URL
   email            : "fernando@mpa-garching.mpg.de" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  NASA/ADS         : "https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20author%3A%22fernando%20hidalgo-pineda%22&sort=date%20desc%2C%20bibcode%20desc&p_=0"
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  nasaads          : "https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20author%3A%22fernando%20hidalgo-pineda%22&sort=date%20desc%2C%20bibcode%20desc&p_=0"
+  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0004-8115-6353"
   semantic         : # URL
@@ -85,7 +85,7 @@ publication_category:
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts

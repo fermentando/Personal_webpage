@@ -19,7 +19,7 @@
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
+    @include prefix(1 of 12);
     @include suffix(2 of 12);
   }
 
@@ -45,18 +45,18 @@
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-4;
+  font-size: $type-size-1;
 }
 
 .page__content {
 
-  h2 {
+  h4 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
   }
 
   p, li, dl {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   /* paragraph indents */
@@ -87,7 +87,7 @@
   dt {
     margin-top: 1em;
     font-family: $sans-serif;
-    font-weight: bold;
+    font-weight: normal;
   }
 
   dd {
@@ -206,7 +206,8 @@
       clip: rect(0 0 0 0);
       height: 1px;
       margin: -1px;
-      overflow: hidden;
+      overflow: visible; //hidden;
+      white-space: normal;
       padding: 0;
       position: absolute;
       width: 1px;

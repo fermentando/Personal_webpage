@@ -15,7 +15,7 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    <h4 class="author__name">{{ author.name }}</h4>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
@@ -58,6 +58,9 @@
       {% endif %}                        
       {% if author.researchgate %}
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>ResearchGate</a></li>
+      {% endif %}
+      {% if author.nasaads %}
+      <li><a href="{{ author.nasaads }}"><i class="i fa-solid fa-rocket icon-pad-right" aria-hidden="true"></i>Nasa/Ads</a></li>
       {% endif %}
 
       <!-- Font Awesome icons / Repositories and software development -->

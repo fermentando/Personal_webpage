@@ -15,6 +15,13 @@ layout: compress
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
+    
+    <div class="page__hero" style="background-image: url('{{ page.hero_image | default: '/images/about_me_banner.jpg' }}');">
+      <div class="page__hero-overlay">
+        <h1>{{ page.title | default: 'Default Title' }}</h1>
+      </div>
+    </div>
+
 
     {{ content }}
 
